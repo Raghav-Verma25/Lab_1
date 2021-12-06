@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Test_4 {
+    String name;
+    int roll_number;
+    float percentage;
+    Test_4(){
+        this.roll_number = roll_number;
+        this.name = name;
+        this.percentage=percentage;
+    }
+
+    public void entries(){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i =0 ; i<n ; i++){
+            System.out.println("enter roll number - ");
+            int roll_number = sc .nextInt();
+            System.out.println("enter name - ");
+            String name = sc.nextLine();
+            System.out.println("enter percentage - ");
+            float percentage = sc.nextFloat();
+        }
+    }
+
+    public void display(){
+
+        for(int j =0 ; j<  9; j++){
+            for( int k= 0 ; k< j ; k++){
+               // float highest = percentage[j];
+
+            }
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Test_4 obj = new Test_4();
+        obj.entries();
+
+    }
+
+}
